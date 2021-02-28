@@ -1,1 +1,3 @@
 # BatteryGauge
+
+![Window](window.png)
