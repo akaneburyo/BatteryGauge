@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3300885325F38C9D00F17ED7 /* AppDelegate+CustomMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3300885225F38C9C00F17ED7 /* AppDelegate+CustomMenu.swift */; };
 		576C322425E7C4FB002A9607 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576C322325E7C4FB002A9607 /* AppDelegate.swift */; };
 		576C322625E7C4FB002A9607 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576C322525E7C4FB002A9607 /* ContentView.swift */; };
 		576C322825E7C506002A9607 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 576C322725E7C506002A9607 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3300885225F38C9C00F17ED7 /* AppDelegate+CustomMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+CustomMenu.swift"; sourceTree = "<group>"; };
 		576C322025E7C4FB002A9607 /* Battery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Battery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		576C322325E7C4FB002A9607 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		576C322525E7C4FB002A9607 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,6 +77,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3300883C25F36E9700F17ED7 /* BatteryManager */ = {
+			isa = PBXGroup;
+			children = (
+				576C32A025EA4029002A9607 /* Device.swift */,
+				576C325A25E7C811002A9607 /* BatteryManager.swift */,
+			);
+			path = BatteryManager;
+			sourceTree = "<group>";
+		};
 		576C321725E7C4FB002A9607 = {
 			isa = PBXGroup;
 			children = (
@@ -96,11 +107,11 @@
 		576C322225E7C4FB002A9607 /* Battery */ = {
 			isa = PBXGroup;
 			children = (
-				576C322325E7C4FB002A9607 /* AppDelegate.swift */,
+				3300883C25F36E9700F17ED7 /* BatteryManager */,
 				576C322525E7C4FB002A9607 /* ContentView.swift */,
-				576C32A025EA4029002A9607 /* Device.swift */,
-				576C325A25E7C811002A9607 /* BatteryManager.swift */,
 				576C325525E7C7CC002A9607 /* BatteryGauge.swift */,
+				576C322325E7C4FB002A9607 /* AppDelegate.swift */,
+				3300885225F38C9C00F17ED7 /* AppDelegate+CustomMenu.swift */,
 				576C322725E7C506002A9607 /* Assets.xcassets */,
 				576C322C25E7C506002A9607 /* Main.storyboard */,
 				576C322F25E7C506002A9607 /* Info.plist */,
@@ -251,6 +262,7 @@
 				576C325B25E7C811002A9607 /* BatteryManager.swift in Sources */,
 				576C322625E7C4FB002A9607 /* ContentView.swift in Sources */,
 				576C322425E7C4FB002A9607 /* AppDelegate.swift in Sources */,
+				3300885325F38C9D00F17ED7 /* AppDelegate+CustomMenu.swift in Sources */,
 				576C325625E7C7CC002A9607 /* BatteryGauge.swift in Sources */,
 				576C32A125EA4029002A9607 /* Device.swift in Sources */,
 			);

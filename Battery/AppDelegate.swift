@@ -11,13 +11,13 @@ import SwiftUI
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
 
+    let application = NSApplication.shared
     var window: NSWindow!
 
-    @IBAction func syncAction(_ sender: Any) {
-        print("Dummy.")
-    }
-
     func applicationDidFinishLaunching(_ aNotification: Notification) {
+                
+        application.mainMenu = self.makeCustomMenu()
+        
         // Create the SwiftUI view that provides the window contents.
         let contentView = ContentView()
 
@@ -35,12 +35,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         window.isMovableByWindowBackground = true
         window.backgroundColor = NSColor(white: 1, alpha: 0)
         window.level = .floating
+        
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application
     }
-
-
 }
-
